@@ -65,9 +65,6 @@ nav .mainMenu li a {
     font-weight: 400;
 }
 
-/* nav ul li a:hover{
-    background-color: #000;
-} */
 nav .openMenu {
     font-size: 2rem;
     margin: 20px;
@@ -88,9 +85,10 @@ nav .mainMenu .closeMenu {
 }
 
 /* navbar style end  */
-.banner-img {
+.image {
     border-radius: 16px;
-    /* background: linear-gradient(to top right, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+    background: linear-gradient(bottom to top, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    width: 100%;
 }
 
 .banner .explore {
@@ -128,8 +126,9 @@ nav .mainMenu .closeMenu {
     text-align: center;
 }
 
-.where,.when,
-.select,.find-now {
+.where,
+.when,
+.select {
     height: 52px;
     width: 170px;
     border-radius: 8px;
@@ -143,6 +142,8 @@ nav .mainMenu .closeMenu {
 }
 
 .find-now {
+    height: 52px;
+    width: 170px;
     background: #FF5400;
     text-align: center;
     font-size: 1rem;
@@ -150,4 +151,91 @@ nav .mainMenu .closeMenu {
     padding: 9px;
     border: none;
     margin-right: 10px;
+}
+
+/* main styles start*/
+.newsletter-section {
+    height: 430px;
+    width: 90%;
+    margin: 50px 100px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Newsletter-div {
+    padding: 20px;
+    border: 1px solid #FF5400;
+}
+
+.news {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.news-text {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.block {
+    display: block;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 20px 10px;
+    width: 250px;
+    border: none;
+}
+
+.subscribe {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 10px;
+    margin: 10px 20px 10px;
+    width: 270px;
+    border: none;
+}
+
+/* main styles end */
+
+/* footer styles */
+footer {
+    max-width: 1250;
+    height: 450px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.footer-description {
+    margin-bottom: 70px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+hr {
+    margin: 70px 90px;
 }

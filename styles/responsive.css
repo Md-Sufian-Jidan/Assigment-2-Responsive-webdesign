@@ -28,4 +28,17 @@
         color: rgb(255, 94, 0);
         font-size: 1.6rem;
     }
+    .banner{
+        flex-direction: column;
+    }
+    /* .image{
+        height: 440px;
+        width: 300px;
+        margin: 10px;
+        padding: 0px;
+    }
+     */
+    footer{
+        width: 300px;
+        }
 }
