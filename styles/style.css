@@ -3,28 +3,31 @@
 
 /* shared styles */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     border: border-box;
 }
-body{
+
+body {
     font-family: 'Mulish', sans-serif;
 }
-:root{
+
+:root {
     --primary-color: #FF5400;
     --Dark-02: #424247;
 }
 
 /* header styles start  */
-header{
+header {
     margin: 20px 100px;
 }
 
-.logo{
+.logo {
     display: flex;
 }
-.halal{
+
+.halal {
     color: #131318;
     font-size: 2.25rem;
     font-weight: 800;
@@ -32,22 +35,27 @@ header{
     display: flex;
     gap: 5px;
 }
-span{
+
+span {
     color: var(--primary-color);
 }
-.mainMenu .orange{
+
+.mainMenu .orange {
     color: var(--primary-color);
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
-nav .mainMenu{
+
+nav .mainMenu {
     display: flex;
     list-style: none;
 }
-nav .mainMenu li a{
+
+nav .mainMenu li a {
     display: inline-block;
     padding: 15px;
     text-decoration: none;
@@ -56,6 +64,7 @@ nav .mainMenu li a{
     font-size: 1.2rem;
     font-weight: 400;
 }
+
 /* nav ul li a:hover{
     background-color: #000;
 } */
@@ -65,13 +74,80 @@ nav .openMenu {
     display: none;
     cursor: pointer;
 }
-nav .mainMenu .closeMenu{
+
+nav .mainMenu .closeMenu {
     font-size: 2rem;
     display: none;
     cursor: pointer;
 }
-.nav .logo{
+
+.nav .logo {
     margin: 6px;
     font-size: 25px;
     cursor: pointer;
+}
+
+/* navbar style end  */
+.banner-img {
+    border-radius: 16px;
+    /* background: linear-gradient(to top right, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+}
+
+.banner .explore {
+    position: relative;
+    top: -400px;
+    text-align: center;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner .banner-description {
+    position: relative;
+    top: -380px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0px 200px;
+}
+
+.input {
+    height: 70px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    position: relative;
+    top: -300px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 3px 180px;
+}
+
+.where {
+    text-align: center;
+}
+
+.where,.when,
+.select,.find-now {
+    height: 52px;
+    width: 170px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 9px;
+    border: none;
+    margin-right: 10px;
+}
+
+.find-now {
+    background: #FF5400;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 9px;
+    border: none;
+    margin-right: 10px;
 }
