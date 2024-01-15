@@ -244,26 +244,41 @@ ul>li {
 
 .first-text {
     position: relative;
-    left: 230px;
     top: -170px;
+    color: #FFF;
+    text-align: flex-start;
+    font-size: 1.75rem;
+    font-weight: 800;
+    padding-left: 200px;
+}
+
+.second-text {
+    position: relative;
+    text-align: end;
+    top: -200px;
     color: #FFF;
     font-size: 1.75rem;
     font-weight: 800;
-}
-.second-text{
-    position: relative;
-    top: -200px;
-    left: 940px;
-    color: #FFF;
-font-size: 1.75rem;
-font-weight: 800;
+    padding-right: 170px;
 }
 
-/* .second-text{
+.kashmir {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    border: 3px solid red;
+}
+
+.four,.five,.six {
     position: relative;
-    right: 250px;
-    top: -230px;
-} */
+    top: -200px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
 /* chose tour destination end  */
 
 .newsletter-section {
@@ -351,3 +366,5 @@ footer {
 hr {
     margin: 70px 90px;
 }
+
+;
