@@ -160,6 +160,7 @@ nav .mainMenu .closeMenu {
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
 }
+
 .popular-tour {
     color: #131318;
     text-align: center;
@@ -167,11 +168,12 @@ nav .mainMenu .closeMenu {
     font-weight: 800;
     margin-top: 15px;
 }
-.popular-p{
+
+.popular-p {
     color: rgba(19, 19, 24, 0.70);
-font-size: 1rem;
-font-weight: 400;
-margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 ul>li {
@@ -199,10 +201,70 @@ ul>li {
     border: none;
     margin-top: 20px;
 }
-.popular-img{
+
+.popular-img {
     margin-left: 30px;
     padding-left: 50px;
 }
+
+/* chose tour destination start */
+.destination-section {
+    margin: 50px 100px;
+}
+
+/* .destination{
+    text-align: center;
+} */
+.destination-text {
+    color: #131318;
+    text-align: center;
+    font-size: 3.1rem;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 30px 0px;
+    padding: 20px 100px;
+}
+
+.maldives {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.maldives-right-img {
+    padding-left: 30px;
+    margin-left: 50px;
+}
+
+.first-text {
+    position: relative;
+    left: 230px;
+    top: -170px;
+    color: #FFF;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+.second-text{
+    position: relative;
+    top: -200px;
+    left: 940px;
+    color: #FFF;
+font-size: 1.75rem;
+font-weight: 800;
+}
+
+/* .second-text{
+    position: relative;
+    right: 250px;
+    top: -230px;
+} */
+/* chose tour destination end  */
 
 .newsletter-section {
     height: 430px;
