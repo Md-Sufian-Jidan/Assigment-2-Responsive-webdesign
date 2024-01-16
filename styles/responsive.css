@@ -34,6 +34,107 @@
         font-size: 1.6rem;
     }
     .banner{
+        height: 600px;
+        width: 400px;
+        background-size: cover;
+    }
+    .explore{
+        font-size: 1.5rem;
+    }
+    .banner-description{
+        font-size: 1rem;
+        padding: 0px;
+    }
+    .input{
+        padding: 0px;
+        margin: 0px 70px;
+    }
+    .input-field{
+        flex-direction: column;
+        padding: 0px;
+        gap: 10px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        position: relative;
+        top: -100px;
+    }
+    .popular-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .popular-div{
+        width: 375px;
+    }
+    .popular-image{
+        height: 340px;
+        width: 350px;
+    }
+    .destination-text{
+        font-size: 1.5rem;
+    }
+    .destination-description{
+        padding: 0px;
+    }
+    .maldives{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0px;
+    }
+    .maldives-img{
+        height: 176px;
+        width: 335px;
+        gap: 0px;
+    }
+    .first-text{
+        position: relative;
+        top: -300px;
+        padding: 0px 70px;
+    }
+    .second-text{
+        padding: 40px 60px;
+    }
+    .kashmir{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .four{
+        position: relative;
+        top: -520px;
+        margin-top: 0px;
+    }
+    .five{
+        position: relative;
+        top: -340px;
+        margin-top: 0px;
+    }
+    .bangladesh-div{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .seven{
+        position: relative;
+        top: -330px;
+        padding: 0px;
+    }
+    .eight{
+        position: relative;
+        top: -170px;
+        padding: 0px;
+    }
+    .chose-us{
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+    .chose-us-description{
+        font-size: 1rem;
+        padding: 20px;
+    }
+    .chose-us-div{
+        flex-direction: column;
+        margin: 10px 40px;
+    }
+    .Handpicked-Hotels{
+        height: 285px;
+        width: 340px;
+    }
+    /* .banner{
         width: 100%;
         height: 500px;
         margin: 0px;
@@ -47,9 +148,6 @@
     .banner-description{
         padding: 0px;
     }
-.input{
-    margin: 30px ;
-}
     .popular-section{
         grid-template-columns: repeat(1,1fr);
     }
@@ -59,5 +157,5 @@
      */
     footer{
         width: 300px;
-        }
+        } */
 }
