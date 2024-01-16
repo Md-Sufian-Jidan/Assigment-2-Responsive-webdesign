@@ -126,10 +126,12 @@ nav .mainMenu .closeMenu {
     gap: 10px;
     margin: 3px 180px;
 }
-.input-field{
+
+.input-field {
     margin-top: 7px;
 }
-.where-go{
+
+.where-go {
     height: 52px;
     width: 170px;
     border-radius: 8px;
@@ -139,6 +141,7 @@ nav .mainMenu .closeMenu {
     font-weight: 400;
     border: none;
 }
+
 .when,
 .select {
     height: 52px;
@@ -220,10 +223,6 @@ nav .mainMenu .closeMenu {
     border: none;
     margin-top: 20px;
 }
-
-/* .popular-img {
-    padding-left: 50px;
-} */
 
 /* chose tour destination start */
 .destination-section {
@@ -323,6 +322,64 @@ nav .mainMenu .closeMenu {
 }
 
 /* chose tour destination end  */
+/* why chose us section stars */
+.chose-us {
+    color: #131318;
+    text-align: center;
+    font-size: 3.1rem;
+    font-weight: 800;
+}
+
+.chose-us-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.chose-us-div {
+    margin: 30px 100px;
+    display: flex;
+    gap: 40px;
+}
+
+.Handpicked-Hotels {
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+
+.hotels-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.primary{
+    padding-bottom: 10px;
+}
+
+.world-class-service {
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+}
+
+.best-price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0px 400px;
+    padding: 30px;
+}
+
+.world-heading,.price-heading,.Hotels {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
 
 .newsletter-section {
     height: 430px;
