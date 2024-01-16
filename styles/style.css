@@ -356,7 +356,8 @@ nav .mainMenu .closeMenu {
     font-weight: 400;
     padding-top: 10px;
 }
-.primary{
+
+.primary {
     padding-bottom: 10px;
 }
 
@@ -375,10 +376,68 @@ nav .mainMenu .closeMenu {
     padding: 30px;
 }
 
-.world-heading,.price-heading,.Hotels {
+.world-heading,
+.price-heading,
+.Hotels {
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
+}
+
+/* world class section start */
+.world-class-section {
+    width: 90%;
+    margin: 30px 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.world-class-div {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.simple {
+    color: #131318;
+    font-size: 3.1rem;
+    font-weight: 800;
+}
+
+.simple-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.video {
+    width: 50%;
+}
+
+.video-list {
+    height: 400px;
+    width: 600px;
+}
+
+ul>.disc {
+    list-style-type: disc;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.see-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    height: 52px;
+    width: 174px;
+    margin-top: 10px;
 }
 
 .newsletter-section {
