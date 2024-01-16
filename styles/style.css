@@ -85,24 +85,29 @@ nav .mainMenu .closeMenu {
 }
 
 /* navbar style end  */
-.image {
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background-image: url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius: 16px;
-    background: linear-gradient(bottom to top, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
-    width: 100%;
+    margin: 3rem 0;
 }
 
-.banner .explore {
+.explore {
     position: relative;
-    top: -400px;
+    top: 100px;
     text-align: center;
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
 }
 
-.banner .banner-description {
+.banner-description {
     position: relative;
-    top: -380px;
+    top: 100px;
     color: #FFF;
     text-align: center;
     font-size: 1rem;
@@ -121,12 +126,19 @@ nav .mainMenu .closeMenu {
     gap: 10px;
     margin: 3px 180px;
 }
-
-.where {
-    text-align: center;
+.input-field{
+    margin-top: 7px;
 }
-
-.where,
+.where-go{
+    height: 52px;
+    width: 170px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+}
 .when,
 .select {
     height: 52px;
@@ -139,25 +151,32 @@ nav .mainMenu .closeMenu {
     padding: 9px;
     border: none;
     margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .find-now {
     height: 52px;
     width: 170px;
     background: #FF5400;
+    color: #FFF;
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
     padding: 9px;
     border: none;
     margin-right: 10px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
 }
 
 /* main styles start*/
 .popular-section {
-    margin: 40px 100px;
+    margin: 20px 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
     width: 90%;
 }
 
@@ -176,7 +195,7 @@ nav .mainMenu .closeMenu {
     margin-top: 10px;
 }
 
-ul>li {
+.popular>li {
     list-style-type: disc;
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
@@ -195,26 +214,22 @@ ul>li {
     background: #FF5400;
     color: #FFF;
     text-align: center;
-    font-size: 1.rem;
+    font-size: 1rem;
     font-weight: 800;
     padding: 15px;
     border: none;
     margin-top: 20px;
 }
 
-.popular-img {
-    margin-left: 30px;
+/* .popular-img {
     padding-left: 50px;
-}
+} */
 
 /* chose tour destination start */
 .destination-section {
     margin: 50px 100px;
 }
 
-/* .destination{
-    text-align: center;
-} */
 .destination-text {
     color: #131318;
     text-align: center;
@@ -235,11 +250,7 @@ ul>li {
 .maldives {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-
-.maldives-right-img {
-    padding-left: 30px;
-    margin-left: 50px;
+    gap: 25px;
 }
 
 .first-text {
@@ -267,11 +278,12 @@ ul>li {
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 60px;
-    border: 3px solid red;
+    gap: 25px;
 }
 
-.four,.five,.six {
+.four,
+.five,
+.six {
     position: relative;
     top: -200px;
     color: #FFF;
@@ -279,6 +291,37 @@ ul>li {
     font-size: 1.75rem;
     font-weight: 800;
 }
+
+.bangladesh-section {
+    margin: 20px 100px;
+}
+
+.bangladesh-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px
+}
+
+.seven {
+    position: relative;
+    top: -170px;
+    padding-right: 650px;
+}
+
+.seven,
+.eight {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.eight {
+    position: relative;
+    top: -190px;
+    padding-left: 500px;
+}
+
 /* chose tour destination end  */
 
 .newsletter-section {
