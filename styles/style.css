@@ -454,6 +454,7 @@ ul>.disc {
 
 .Newsletter-div {
     padding: 20px;
+    border-radius: 16px;
     border: 1px solid #FF5400;
 }
 
@@ -501,7 +502,7 @@ ul>.disc {
 
 /* footer styles */
 footer {
-    max-width: 1250;
+    max-width: 1250px;
     height: 450px;
     background: rgba(19, 19, 24, 0.05);
     padding: 50px;
@@ -523,9 +524,10 @@ footer {
     justify-content: center;
     gap: 20px;
 }
-
-hr {
+#footer-icon{
+    height: 24px;
+    width: 18px;
+}
+.footer-hr {
     margin: 70px 90px;
 }
-
-;
